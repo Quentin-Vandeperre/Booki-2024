@@ -1,0 +1,178 @@
+@media all and (max-width: 768px) {
+
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        padding-left: 0;
+    }
+
+    #Logo {
+        margin-top: 10px;
+    }
+
+    .FirstLine {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FirstLine a {
+        width: 100%;
+    }
+
+    .NavLien {
+        width: 100%;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .HebergementsEnTete, .ActivitesEnTete {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 20px;
+        padding-top: 0;
+        padding-bottom: 10px;
+        border-top: none;
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .HebergementsEnTete:hover, .ActivitesEnTete:hover {
+        border-color: #0065FC;
+        border-top: none;
+    }
+
+        /*****************************MAIN************************/
+
+    main {
+        padding: 0 20px;
+    }
+
+    form {
+        width: 98%;
+    }
+
+    .Recherche {
+        display: none;
+    }
+
+    .Loupe {
+        display: block;
+    }
+
+    .BoutonRecherche {
+        border-radius: 15px;
+        padding-right: 20px;
+        margin-left: -20px;
+    }
+
+    .EspaceRecherche {
+        width: 100%;
+    }
+
+    .Filtres {
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .TitreFiltre {
+        align-content: flex-start;
+        margin-bottom: 0;
+    }
+
+    .EnsemblesOptions {
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .Option {
+        width: 43%;
+        margin-bottom: 10px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .IconFiltre{
+        margin-right: 4px;
+    }
+
+    /*****************************HEBERGEMENT************************/
+
+    .Section {
+        flex-direction: column-reverse;
+    }
+
+    .SectionHebergement{
+        width: 100%;
+        background-color: white;
+    }
+
+    .Ensemble6Hebergement {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .InfoHotel {
+        width: 90%;
+    }
+
+    .PhotoHebergement {
+        height: 124px;
+    }
+
+    /*****************************POPULAIRE************************/
+
+    .AsidePopulaire {
+        width: 100%;
+        max-width: 768px;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .InfoHotelPopulaire article {
+        width: 100%;
+    }
+
+    .TitrePrixEtoile {
+        margin: 0;
+        padding: 10px 5px 5px 15px;
+    }
+
+    .PhotoPopulaire {
+        width: 30%;
+    }
+
+    /*****************************ACTIVITE************************/
+
+    .ActivitesMarseille {
+        flex-direction: column;
+    }
+
+    .InfoActivite {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .PhotoActivite{
+        height: 141px;
+    }
+
+    /*****************************FOOTER************************/
+
+    footer {
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
